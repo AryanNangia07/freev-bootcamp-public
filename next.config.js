@@ -2,6 +2,7 @@ const path = require("path");
 
 const LOADER = path.resolve(__dirname, "src/visual-edits/component-tagger-loader.js");
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -15,7 +16,7 @@ const nextConfig = {
       },
     ],
   },
-  outputFileTracingRoot: path.resolve(__dirname, "../../"),
+  // Removed outputFileTracingRoot for Vercel
   typescript: {
     ignoreBuildErrors: true,
   },
