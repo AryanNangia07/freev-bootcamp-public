@@ -295,7 +295,7 @@ export default function Home() {
               What You&apos;ll Gain
             </h2>
             <p className="text-gray-500 text-center max-w-2xl mx-auto mb-16 text-lg">
-              Everything you need to go from idea to launch in 8 weeks (March - April)
+              Everything you need to go from idea to launch
             </p>
           </AnimatedSection>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -440,7 +440,7 @@ export default function Home() {
               8-Week Timeline
             </h2>
             <p className="text-gray-500 text-center max-w-2xl mx-auto mb-16 text-lg">
-              From first idea to final pitch
+              From first idea to final pitch in 8 weeks (March-April)
             </p>
           </AnimatedSection>
           <div className="relative">
