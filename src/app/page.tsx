@@ -174,7 +174,12 @@ const faqs = [
   {
     question: "What's the time commitment?",
     answer:
-      "The bootcamp runs for 8 weeks with 1-2 hours of live sessions per week, plus optional office hours. Most students spend 4-6 hours total per week.",
+      "The bootcamp runs for 8 weeks starting from March 8 till April 25. There will be 1-2 hours of live sessions per week, plus optional office hours. Most students spend 4-6 hours total per week including assignments and group projects.",
+  },
+  {
+    question: "When will the live workshops be held?",
+    answer:
+      "The current planned timings are 9PM PST on Saturdays, however, they may be subject to change depending on mentor and student availability.",
   },
   {
     question: "What is the pricing of the bootcamp?",
