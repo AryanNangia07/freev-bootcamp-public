@@ -195,7 +195,7 @@ const faqs = [
   {
     question: "When will the live workshops be held?",
     answer:
-      "The current planned timings are 9PM PST on Saturdays, however, they may be subject to change depending on mentor and student availability.",
+      "The current planned timings are 9PM PST on Saturdays, however, they may be subject to change depending on mentor and student availability. All sessions will be recorded to ensure students who are unable to attend can still access the material.",
   },
   {
     question: "What is the pricing of the bootcamp?",
