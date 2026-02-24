@@ -118,45 +118,61 @@ const mentors = [
 ];
 
 const timeline = [
-  {
+   {
     week: 1,
+    dates: "Mar 8 – Mar 14",
     title: "Ideation & Design Thinking",
-    description: "Generate and validate startup ideas using structured brainstorming frameworks. Learn how to identify real problems worth solving.",
+    description:
+      "Generate and validate startup ideas using structured brainstorming frameworks. Learn how to identify real problems worth solving.",
   },
   {
     week: 2,
+    dates: "Mar 15 – Mar 21",
     title: "Market Research",
-    description: "Conduct user interviews and analyze your target audience. Map out your competitive landscape and identify your unique value proposition.",
+    description:
+      "Conduct user interviews and analyze your target audience. Map out your competitive landscape and identify your unique value proposition.",
   },
   {
     week: 3,
+    dates: "Mar 22 – Mar 28",
     title: "Business Models & Strategy",
-    description: "Explore case studies to learn unit economics & pricing models. Create your own lean business canvas.",
+    description:
+      "Explore case studies to learn unit economics & pricing models. Create your own lean business canvas.",
   },
   {
     week: 4,
+    dates: "Mar 29 – Apr 4",
     title: "MVP Development",
-    description: "Turn your validated idea into a minimum viable product. Learn rapid prototyping techniques, no-code tools, and how to ship fast without sacrificing quality.",
+    description:
+      "Turn your validated idea into a minimum viable product. Learn rapid prototyping techniques, no-code tools, and how to ship fast without sacrificing quality.",
   },
   {
     week: 5,
+    dates: "Apr 5 – Apr 11",
     title: "User Testing & Iteration",
-    description: "Put your MVP in front of real users and gather actionable feedback. Learn how to run effective user tests, measure key metrics, and iterate quickly.",
+    description:
+      "Put your MVP in front of real users and gather actionable feedback. Learn how to run effective user tests, measure key metrics, and iterate quickly.",
   },
   {
     week: 6,
+    dates: "Apr 12 – Apr 18",
     title: "Growth & Marketing",
-    description: "Master customer acquisition channels and growth strategies. Dive into social media marketing, content strategy, SEO basics, and more.",
+    description:
+      "Master customer acquisition channels and growth strategies. Dive into social media marketing, content strategy, SEO basics, and more.",
   },
   {
     week: 7,
+    dates: "Apr 19 – Apr 25",
     title: "Storytelling",
-    description: "Craft a compelling narrative that resonates with investors and customers. Build your pitch deck, practice delivery, and learn how to handle Q&A.",
+    description:
+      "Craft a compelling narrative that resonates with investors and customers. Build your pitch deck, practice delivery, and learn how to handle Q&A.",
   },
   {
     week: 8,
+    dates: "Apr 25",
     title: "Demo Day",
-    description: "Present your startup to a panel of investors, founders, and industry experts. Compete for $10K in prizes and receive personalized feedback.",
+    description:
+      "Present your startup to a panel of investors, founders, and industry experts. Compete for prizes and receive personalized feedback.",
   },
 ];
 
@@ -451,28 +467,35 @@ export default function Home() {
           <div className="relative">
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-purple-200 via-purple-400 to-purple-600 md:-translate-x-px" />
             {timeline.map((item, index) => (
-              <AnimatedSection key={item.week} delay={index * 0.1}>
-                <div
-                  className={`relative flex items-start gap-6 md:gap-0 mb-12 last:mb-0 ${
-                    index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                  }`}
-                >
-                  <div className="absolute left-4 md:left-1/2 w-3 h-3 bg-purple-500 rounded-full md:-translate-x-1.5 translate-y-2 ring-4 ring-purple-100" />
-                  <div
-                    className={`flex-1 pl-12 md:pl-0 ${
-                      index % 2 === 0 ? "md:pr-16 md:text-right" : "md:pl-16"
-                    }`}
-                  >
-                    <span className="inline-block text-purple-600 font-bold text-sm mb-2">
-                      WEEK {item.week}
-                    </span>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                  <div className="hidden md:block flex-1" />
-                </div>
+              </AnimatedSection>
+<div className="relative">
+  <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-purple-200 via-purple-400 to-purple-600 md:-translate-x-px" />
+  {timeline.map((item, index) => (
+    <AnimatedSection key={item.week} delay={index * 0.1}>
+        <div
+          className={`relative flex items-start gap-6 md:gap-0 mb-12 last:mb-0 ${
+            index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+              }`}
+            >
+              <div className="absolute left-4 md:left-1/2 w-3 h-3 bg-purple-500 rounded-full md:-translate-x-1.5 translate-y-2 ring-4 ring-purple-100" />
+              <div
+                className={`flex-1 pl-12 md:pl-0 ${
+                  index % 2 === 0 ? "md:pr-16 md:text-right" : "md:pl-16"
+                }`}
+              >
+                <span className="inline-block text-purple-600 font-bold text-sm mb-1">
+                WEEK {item.week}
+                </span>
+                <span className="block text-purple-400 text-xs mb-2">
+                {item.dates}
+                </span>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                {item.title}
+                </h3>
+                <p className="text-gray-600">{item.description}</p>
+              </div>
+              <div className="hidden md:block flex-1" />
+            </div>
               </AnimatedSection>
             ))}
           </div>
