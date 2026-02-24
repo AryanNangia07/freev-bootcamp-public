@@ -120,56 +120,56 @@ const mentors = [
 const timeline = [
    {
     week: 1,
-    dates: "Mar 8 – Mar 14",
+    date: "Mar 8 – Mar 14",
     title: "Ideation & Design Thinking",
     description:
       "Generate and validate startup ideas using structured brainstorming frameworks. Learn how to identify real problems worth solving.",
   },
   {
     week: 2,
-    dates: "Mar 15 – Mar 21",
+    date: "Mar 15 – Mar 21",
     title: "Market Research",
     description:
       "Conduct user interviews and analyze your target audience. Map out your competitive landscape and identify your unique value proposition.",
   },
   {
     week: 3,
-    dates: "Mar 22 – Mar 28",
+    date: "Mar 22 – Mar 28",
     title: "Business Models & Strategy",
     description:
       "Explore case studies to learn unit economics & pricing models. Create your own lean business canvas.",
   },
   {
     week: 4,
-    dates: "Mar 29 – Apr 4",
+    date: "Mar 29 – Apr 4",
     title: "MVP Development",
     description:
       "Turn your validated idea into a minimum viable product. Learn rapid prototyping techniques, no-code tools, and how to ship fast without sacrificing quality.",
   },
   {
     week: 5,
-    dates: "Apr 5 – Apr 11",
+    date: "Apr 5 – Apr 11",
     title: "User Testing & Iteration",
     description:
       "Put your MVP in front of real users and gather actionable feedback. Learn how to run effective user tests, measure key metrics, and iterate quickly.",
   },
   {
     week: 6,
-    dates: "Apr 12 – Apr 18",
+    date: "Apr 12 – Apr 18",
     title: "Growth & Marketing",
     description:
       "Master customer acquisition channels and growth strategies. Dive into social media marketing, content strategy, SEO basics, and more.",
   },
   {
     week: 7,
-    dates: "Apr 19 – Apr 25",
+    date: "Apr 19 – Apr 25",
     title: "Storytelling",
     description:
       "Craft a compelling narrative that resonates with investors and customers. Build your pitch deck, practice delivery, and learn how to handle Q&A.",
   },
   {
     week: 8,
-    dates: "Apr 25",
+    date: "Apr 25",
     title: "Demo Day",
     description:
       "Present your startup to a panel of investors, founders, and industry experts. Compete for prizes and receive personalized feedback.",
