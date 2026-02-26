@@ -200,7 +200,7 @@ const faqs = [
   {
     question: "What is the pricing of the bootcamp?",
     answer:
-      "The full cost of the bootcamp is $250. Free Ventures is committed to accessible education and offers financial aid to students with verified need. If cost may be a barrier or you are unsure whether you qualify, we encourage you to reach out to aryan@freeventures.org .",
+      "The full cost of the bootcamp is $250 (early-bird offer). Free Ventures is committed to accessible education and offers financial aid to students with verified need. If cost may be a barrier or you are unsure whether you qualify, we encourage you to reach out to aryan@freeventures.org .",
   },
   {
     question: "Can I apply if I already have a startup idea?",
