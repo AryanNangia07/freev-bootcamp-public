@@ -562,7 +562,7 @@ export default function Home() {
                   <ArrowRight className="w-5 h-5" />
                 </a>
               <a
-                href="mailto:aryan@freeventures.org"
+                href="mailto:daniel.bao@berkeley.edu"
                 className="inline-flex items-center justify-center gap-2 bg-transparent text-white px-8 py-4 rounded-full font-medium text-lg border border-purple-400/50 hover:border-purple-300 hover:bg-white/5 transition-all"
               >
                 Questions? Contact Us
