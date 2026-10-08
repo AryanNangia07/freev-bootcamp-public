@@ -1,3 +1,4 @@
+
 "use client";
 
 import { motion, useInView } from "framer-motion";
@@ -118,58 +119,58 @@ const mentors = [
 ];
 
 const timeline = [
-   {
+  {
     week: 1,
-    date: "Mar 8 – Mar 14",
+    date: "Oct 22 – Oct 28",
     title: "Ideation & Design Thinking",
     description:
       "Generate and validate startup ideas using structured brainstorming frameworks. Learn how to identify real problems worth solving.",
   },
   {
     week: 2,
-    date: "Mar 15 – Mar 21",
+    date: "Oct 29 – Nov 4",
     title: "Market Research",
     description:
       "Conduct user interviews and analyze your target audience. Map out your competitive landscape and identify your unique value proposition.",
   },
   {
     week: 3,
-    date: "Mar 22 – Mar 28",
+    date: "Nov 5 – Nov 11",
     title: "Business Models & Strategy",
     description:
       "Explore case studies to learn unit economics & pricing models. Create your own lean business canvas.",
   },
   {
     week: 4,
-    date: "Mar 29 – Apr 4",
+    date: "Nov 12 – Nov 18",
     title: "MVP Development",
     description:
       "Turn your validated idea into a minimum viable product. Learn rapid prototyping techniques, no-code tools, and how to ship fast without sacrificing quality.",
   },
   {
     week: 5,
-    date: "Apr 5 – Apr 11",
+    date: "Nov 19 – Nov 25",
     title: "User Testing & Iteration",
     description:
       "Put your MVP in front of real users and gather actionable feedback. Learn how to run effective user tests, measure key metrics, and iterate quickly.",
   },
   {
     week: 6,
-    date: "Apr 12 – Apr 18",
+    date: "Nov 26 – Dec 2",
     title: "Growth & Marketing",
     description:
       "Master customer acquisition channels and growth strategies. Dive into social media marketing, content strategy, SEO basics, and more.",
   },
   {
     week: 7,
-    date: "Apr 19 – Apr 25",
+    date: "Dec 3 – Dec 9",
     title: "Storytelling",
     description:
       "Craft a compelling narrative that resonates with investors and customers. Build your pitch deck, practice delivery, and learn how to handle Q&A.",
   },
   {
     week: 8,
-    date: "Apr 25",
+    date: "Dec 10 – Dec 16",
     title: "Demo Day",
     description:
       "Present your startup to a panel of investors, founders, and industry experts. Compete for prizes and receive personalized feedback.",
@@ -190,7 +191,7 @@ const faqs = [
   {
     question: "What's the time commitment?",
     answer:
-      "The bootcamp runs for 8 weeks starting from March 8 till April 25. There will be 1-2 hours of live sessions per week, plus optional office hours. Most students spend 4-6 hours total per week including assignments and group projects.",
+      "The bootcamp runs for 8 weeks starting from October 22 till December 16. There will be 1-2 hours of live sessions per week, plus optional office hours. Most students spend 4-6 hours total per week including assignments and group projects.",
   },
   {
     question: "When will the live workshops be held?",
@@ -200,7 +201,7 @@ const faqs = [
   {
     question: "What is the pricing of the bootcamp?",
     answer:
-      "The full cost of the bootcamp is $250 (early-bird offer). Free Ventures is committed to accessible education and offers financial aid to students with verified need. If cost may be a barrier or you are unsure whether you qualify, we encourage you to reach out to aryan@freeventures.org .",
+      "The full cost of the bootcamp is $300 (early-bird offer). Free Ventures is committed to accessible education and offers financial aid to students with verified need. If cost may be a barrier or you are unsure whether you qualify, we encourage you to reach out to daniel.bao@berkeley.edu .",
   },
   {
     question: "Can I apply if I already have a startup idea?",
@@ -225,7 +226,7 @@ export default function Home() {
               className="h-14 w-auto"
             />
             <a
-              href="https://tinyurl.com/freevbootcamp26"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScWwmf5A6DU6dRwp2uFQe5-fdR3W3jamg4kjdtS1FUcckY-og/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center justify-center gap-2 bg-purple-600 text-white px-6 py-2.5 rounded-full font-medium text-sm hover:bg-purple-700 transition-all"
@@ -271,7 +272,7 @@ export default function Home() {
                 </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                    href="https://tinyurl.com/freevbootcamp26"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScWwmf5A6DU6dRwp2uFQe5-fdR3W3jamg4kjdtS1FUcckY-og/viewform?usp=dialog"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-purple-600 text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-purple-700 transition-all hover:scale-[1.02] active:scale-[0.98]"
@@ -461,7 +462,7 @@ export default function Home() {
               8-Week Timeline
             </h2>
             <p className="text-gray-500 text-center max-w-2xl mx-auto mb-16 text-lg">
-              From first idea to final pitch in 8 weeks (March-April)
+              From first idea to final pitch in 8 weeks (October-December)
             </p>
           </AnimatedSection>
           <div className="relative">
@@ -552,7 +553,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://tinyurl.com/freevbootcamp26"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScWwmf5A6DU6dRwp2uFQe5-fdR3W3jamg4kjdtS1FUcckY-og/viewform?usp=dialog"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white text-purple-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-50 transition-all hover:scale-[1.02] active:scale-[0.98]"
